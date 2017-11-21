@@ -1,8 +1,8 @@
 # Progress-bar
 
 ## Client code
-
-```int main() {
+```
+int main() {
     progress_bar* bar = make_progress_bar(100, '=', 0, 65);
     int i;
     for(i = 0; i < 100; i++) {
@@ -11,8 +11,8 @@
     }
 
     progress_bar_close(bar);
-}```
-
+}
+```
 ## API
 
 ### Call this function to make a new progress_bar
