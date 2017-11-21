@@ -1,5 +1,3 @@
-# Progress-bar
-
 ## Client code
 ```
 int main() {
